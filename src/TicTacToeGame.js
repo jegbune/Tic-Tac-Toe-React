@@ -1,4 +1,4 @@
-// import './TicTacToeGame.css'
+import './TicTacToeGame.css'
 import React, { useEffect, useState } from 'react'
 
 function TicTacToeGame() {

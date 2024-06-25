@@ -1,4 +1,4 @@
-import './TicTacToe.css'
+// import './TicTacToe.css'
  import React, { useEffect, useState } from 'react'
  
  function TicTacToe() {
