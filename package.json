@@ -2,7 +2,7 @@
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jegbune/github.io/Tic-Tac-Toe-react",
+  "homepage": "https://jegbune.github.io/Tic-Tac-Toe-React/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
