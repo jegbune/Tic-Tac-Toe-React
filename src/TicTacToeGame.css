@@ -1,0 +1,39 @@
+.container {
+    background: #0f1b01;
+    text-align: center;
+}
+.container h1 {
+    font-size: 3rem;
+    color: #fff
+}
+span {
+    color: #01fb01;
+}
+
+.board{
+    width: 500px;
+    height : 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items:center;
+    align-items: center;
+    margin: auto
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #01fb01;
+    width: 150px;
+    height: 150px;
+    background: rgb(19, 43, 75);
+    font-size: 6rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.result {
+    color:#01fb01;
+    font-size: 2rem;
+}
