@@ -5,8 +5,8 @@ import TicTacToeGame from './TicTacToeGame';
 function App() {
   return (
     <div>
-    {/* <TicTacToeGame/> */}
-    <TicTacToe />
+    <TicTacToeGame/>
+    {/* <TicTacToe /> */}
 
     </div>
   )
