@@ -1,4 +1,10 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
     background: #0f1b01;
     text-align: center;
 }
@@ -11,8 +17,8 @@ span {
 }
 
 .board{
-    width: 500px;
-    height : 500px;
+    max-width: 500px;
+    /* max-height: 500px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items:center;
@@ -31,9 +37,28 @@ span {
     font-size: 6rem;
     font-weight: 900;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .result {
     color:#01fb01;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+   .board {
+    max-width: 100%;
+    max-height: 100%; 
+   }
+
+   .boxes {
+    max-width: 30vw;
+    max-height: 30vw;
+   }
+
+   .btn{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+  }
+    
 }
